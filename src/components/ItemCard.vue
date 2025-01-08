@@ -12,7 +12,7 @@
                 <input type="number" v-model="quantity" min="0" name="quantity" placeholder="Enter Quantity" id="">
             </div>
             <div class="buttonField">
-                <p @click="addToCart(), check = !check" class="addCart">Add to Cart</p>
+                <p @click="addToCart()" class="addCart">Add to Cart</p>
                 <div v:show= "check" class="checkmark"></div>
             </div>
         </div>
