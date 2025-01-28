@@ -45,6 +45,7 @@ export default {
           item: this.item,
           quantity: this.quantity
         });
+        alert("Added to cart!");
         // Reset quantity after adding to cart
         this.quantity = 0;
     }
@@ -56,7 +57,7 @@ export default {
 
 <style scoped>
 
-.checkmark {
+/* .checkmark {
       display: inline-block;
       transform: rotate(45deg);
       height: 25px;
@@ -64,7 +65,7 @@ export default {
       margin-left: 60%; 
       border-bottom: 7px solid #78b13f;
       border-right: 7px solid #78b13f;
-    }
+    } */
 .itemCard{
     margin-bottom: 20px;
     background-color: white;
